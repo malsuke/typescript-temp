@@ -1,11 +1,1 @@
-type User = {
-  id: number;
-  name: string;
-};
-
-const user: User = {
-  id: 1,
-  name: 'Alice',
-};
-
-console.log(`User ID: ${user.id}, User Name: ${user.name}`);
+export const sum = (a: number, b: number): number => a + b;
