@@ -14,7 +14,7 @@ const compat = new FlatCompat({
 
 export default [
   {
-    ignores: ['dist', 'dist-cjs', 'dist-esm'],
+    ignores: ['dist', 'dist-cjs', 'dist-esm', 'eslint.config.js'],
   },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
